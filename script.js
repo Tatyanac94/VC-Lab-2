@@ -12,7 +12,7 @@ function CaseEvent() {
 document.getElementById("bttn2").addEventListener("click",DisplayEvent)
 function DisplayEvent() {
   let x = document.getElementById("myUL");
-  let terms = ["Version Control", "Branch", "Commit"]
+  let terms = ["Version Control", "Git Status", "Git Add", "Git Commit -m", "Git Push", "Git Branch"]
   for (let i = 0; i < terms.length; i++) {
     let li = document.createElement("li");
     li.textContent= terms[i];
