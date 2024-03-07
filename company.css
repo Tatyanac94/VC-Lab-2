@@ -1,0 +1,37 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+#myH2O {
+  text-align: center;
+  color: darkmagenta;
+  text-decoration: underline
+  
+}
+#cardContainer {
+  text-align: center;
+  color: magenta;
+}
+#myH2 {
+  color: Green;
+  text-decoration: underline;
+}
+button {
+  background-color: #4CAF50;
+  color: purple;
+  padding: 14px 20px;
+  margin: 8px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+h2 {
+  text-align: center;
+}
+li {
+  text-align: center;
+}
