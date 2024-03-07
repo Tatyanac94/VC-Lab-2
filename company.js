@@ -30,3 +30,8 @@ for (let i = 0; i < employees.length; i++){
   card.appendChild(cardBody2); 
   cardContainer.appendChild(card);
 }
+/*Create an array in the JS file called "offices". Each item in the array should be a city name. 
+Create an empty Bootstrap list group in the company.html file under the related <h2>. 
+Create a Bootstrap button with the text "offices" uder the list group in company.html. 
+Create an event listener in company.js that shows a Bootstrap list group of office locations when the "offices" button is clicked. */
+let offices = ["New York", "Las Vegas", "Chicago", "Houston"]
