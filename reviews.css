@@ -13,3 +13,18 @@ html {
   background-color: #ddd;
   color: red;
 }
+
+#review-cards {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: gold
+}
+p {
+  color: green;
+  }
+h2 {
+  color: purple;
+  }
