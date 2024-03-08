@@ -8,7 +8,7 @@ nav {
 }
 #myH2O {
   text-align: center;
-  color: darkmagenta;
+  color: rebeccapurple;
   text-decoration: underline
   
 }
@@ -22,12 +22,14 @@ nav {
 }
 button {
   background-color: #4CAF50;
-  color: purple;
+  color: rebeccapurple;
   padding: 14px 20px;
-  margin: 8px 20px;
-  border: none;
+  margin: 8px 20px; 
+  border-style: double 10px;
+  border-color: rebeccapurple;
   cursor: pointer;
   width: 100%;
+  font-weight: bold;
 }
 h2 {
   text-align: center;
