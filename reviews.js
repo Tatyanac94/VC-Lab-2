@@ -1,6 +1,4 @@
-/*Create an array called reviews, which contains review objects. Each object has these properties: reviewerName (string data type), reviewText (string data type), and stars (number data type, 0-5). The array should contain 3-4 review objects. 
-Create a function displayReviews that runs on page load. The function should display a Bootstrap card for each review. Each card should display the reviewer's name, the review text, and number of stars. The Bootstrap cards should all display within the <div> with id of "review-cards".
-Add-Commit-Push these changes to GitHub. */
+
 let reviews = [
   {
     "reviewerName": "Harry Potter",
@@ -23,3 +21,22 @@ let reviews = [
     "stars": 2
   } 
 ]
+
+function displayReviews(){
+  let reviewContainer = document.getElementById("review-cards");
+  for (let i = 0; i < reviews.length; i++){
+    let review = document.createElement("div");
+    review.classList.add("card");
+    let reviewTitle = document.createElement("h2");
+    reviewTitle.textContent = reviews[i].reviewerName;
+    let reviewBody1 = document.createElement("p");
+    reviewBody1.textContent = reviews[i].reviewText;
+    let reviewBody2 = document.createElement("p");
+    reviewBody2.textContent = reviews[i].stars;
+    review.appendChild(reviewTitle);
+    review.appendChild(reviewBody1);
+    review.appendChild(reviewBody2);
+    reviewContainer.appendChild(review);
+    }
+}
+  displayReviews();
